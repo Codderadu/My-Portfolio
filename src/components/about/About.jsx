@@ -38,7 +38,7 @@ const About = () => {
               Full-Stack Web Development by Codding Shuttle
               {/* <Link to='https://drive.google.com/file/d/1NhOGpgtkW9rmcwrr2xf4sYKnTA-Aip28/view?usp=share_link'>Click Here</Link> */}
               <br />
-              <a className="a-link"  href="https://drive.google.com/file/d/1NhOGpgtkW9rmcwrr2xf4sYKnTA-Aip28/view?usp=share_link" target={"_blank"} >Click Here</a>
+              <a className="a-link"  href="https://drive.google.com/file/d/1NhOGpgtkW9rmcwrr2xf4sYKnTA-Aip28/view?usp=share_link" target={"blank"} >Click Here</a>
             </p>
           </div>
         </div>

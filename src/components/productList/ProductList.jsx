@@ -24,35 +24,35 @@ const ProductList = () => {
             <div className="image"><img src={award} alt="" /></div>
             </div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-           <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+           <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
           </div>
 
           <div className="pl-1 ">
           <div className="image"><img src={award} alt="" /></div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-          <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+          <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
           </div>
 
           <div className="pl-1 "> <div className="image"><img src={award} alt="" /></div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-            <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+            <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
             </div>
          
           <div className="pl-1 ">
           <div className="image"><img src={award} alt="" /></div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-             <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+             <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
           </div>
 
           <div className="pl-1 "> <div className="image"><img src={award} alt="" /></div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-             <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+             <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
              </div>
          
           <div className="pl-1 ">
           <div className="image"><img src={award} alt="" /></div>
             <p className="decrib">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit molestias odio eligendi atque illo dolori</p>
-             <a href="http://google.com" target='_blank'> <button className='btn-primary' >click here</button></a>
+             <a href="http://google.com" target='blank'> <button className='btn-primary' >click here</button></a>
           </div>
           </Carousel>
         </div>
