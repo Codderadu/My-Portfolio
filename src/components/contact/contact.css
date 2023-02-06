@@ -78,7 +78,9 @@
     color: white;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 4px;
   }
+  
   
   @media screen and (max-width: 480px) {
     .c-wrapper {

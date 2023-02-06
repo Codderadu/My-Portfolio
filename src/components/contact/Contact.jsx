@@ -29,16 +29,7 @@ const Contact = () => {
       );
   };
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-  //   emailjs.sendForm('service_f0iu6tk', 'template_5ur8w9j', formRef.current, 'DIgOq_N5S7sZQoUGJ')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //         setDone(true)
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
+ 
 
   return (
     <div className="c">
@@ -72,7 +63,7 @@ const Contact = () => {
             {/* <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email" /> */}
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Email" name="USER_email" />
             <textarea style={{backgroundColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message" />
-            <button onSubmit={sendEmail}>Submit</button>
+            <button  onSubmit={sendEmail}>Submit</button>
             {done && "Thank you..."}
           </form>
         </div>

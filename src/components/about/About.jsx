@@ -1,5 +1,6 @@
 import "./about.css";
 import Award from "../../img/award.png";
+// import Link from 'react-dom'
 
 const About = () => {
   return (
@@ -17,21 +18,27 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          Im Selfmotivated  MERN Stack Developer.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        An efficient and self-motivated individual open to exploring new areas of work. 
+          <br />
+       Skilled in JavaScript,ReactJS,Redux,Express,Mongoose, NodeJs,
+        <br />
+       A few facts about me, hardworking, focused and
+        punctual individual with good analytical and problem solving skill. I have the ability to learn new things quickly and to juggle and prioritize different tasks. May not a 'know-it-all' but definitely a 'learn-it-all' guy. Always on the lookout for challenging opportunities.
+          <br />
+       My objective will be to secure a position where I can efficiently contribute my skills and abilities to the growth of the organization and build my professional career.
         </p>
         <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />
           <div className="a-award-texts">
             <h3 className="a-award-title">Certification</h3>
             <p className="a-award-desc">
-              Full-Stack Web Development by Codding Shuttle(link)
+              Full-Stack Web Development by Codding Shuttle
+              {/* <Link to='https://drive.google.com/file/d/1NhOGpgtkW9rmcwrr2xf4sYKnTA-Aip28/view?usp=share_link'>Click Here</Link> */}
+              <br />
+              <a className="a-link"  href="https://drive.google.com/file/d/1NhOGpgtkW9rmcwrr2xf4sYKnTA-Aip28/view?usp=share_link" target={"_blank"} >Click Here</a>
             </p>
           </div>
         </div>
